@@ -1,0 +1,8 @@
+---
+- name: Test HashiCorp Vault Userpass Auth
+  hosts: localhost
+  tasks:
+    - name: Print HashiVault Secret
+      debug:
+        msg: "{{ ansible_user }}"
+
