@@ -4,5 +4,5 @@
   tasks:
     - name: Print HashiVault Secret
       debug:
-        msg: "{{ ansible_user }}"
+        msg: "{{ the_secret_from_vault }}"
 
